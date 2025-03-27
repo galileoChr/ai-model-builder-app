@@ -21,6 +21,10 @@ const routes = [
     label: "Builder",
   },
   {
+    href: "/features",
+    label: "Features",
+  },
+  {
     href: "/models",
     label: "Models",
   },

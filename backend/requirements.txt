@@ -9,3 +9,8 @@ sqlalchemy==2.0.27
 alembic==1.13.1
 python-dotenv==1.0.1
 loguru==0.7.2
+networkx==3.2.1
+scikit-learn==1.4.0
+torch==2.2.0
+transformers==4.37.2
+sentence-transformers==2.3.1
