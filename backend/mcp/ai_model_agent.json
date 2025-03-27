@@ -1,0 +1,81 @@
+{
+  "name": "AI Model Builder Agent",
+  "version": "1.0.0",
+  "description": "Agent for building and training AI models from natural language descriptions",
+  "copyright": "Copyright © 2025 Christophe Manzi. All rights reserved.",
+  "capabilities": {
+    "model_types": [
+      "transformer",
+      "cnn",
+      "rnn",
+      "mlp"
+    ],
+    "tasks": [
+      "classification",
+      "regression",
+      "sequence_generation",
+      "translation"
+    ],
+    "supported_formats": [
+      "pytorch",
+      "tensorflow",
+      "onnx"
+    ]
+  },
+  "actions": {
+    "interpret_prompt": {
+      "input": {
+        "type": "string",
+        "description": "Natural language description of desired model"
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "model_type": "string",
+          "task": "string",
+          "architecture": "object"
+        }
+      }
+    },
+    "build_model": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "specification": "object",
+          "dataset": "object"
+        }
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "model_id": "string",
+          "status": "string"
+        }
+      }
+    },
+    "train_model": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "model_id": "string",
+          "hyperparameters": "object"
+        }
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "metrics": "object",
+          "status": "string"
+        }
+      }
+    }
+  },
+  "constraints": {
+    "max_model_size": "1GB",
+    "max_training_time": "24h",
+    "supported_platforms": [
+      "cpu",
+      "cuda"
+    ]
+  }
+}
