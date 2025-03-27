@@ -43,7 +43,7 @@ A sophisticated web application that allows users to create, train, and download
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-model-builder.git
+git clone https://github.com/galileoChr/ai-model-builder-app.git
 cd ai-model-builder
 ```
 
