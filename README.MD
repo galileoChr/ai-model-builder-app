@@ -2,6 +2,12 @@
 
 A sophisticated web application that allows users to create, train, and download AI models using natural language prompts. Built with Next.js 13+, TypeScript, and Tailwind CSS.
 
+![alt text](<Screenshot 2025-03-27 001449.png>)
+
+![alt text](<Screenshot 2025-03-27 001504.png>)
+
+![alt text](<Screenshot 2025-03-27 001517.png>)
+
 ## Features
 
 - **Natural Language Model Building** - Describe your ML task in plain English
