@@ -4,12 +4,12 @@ A sophisticated web application that allows users to create, train, and download
 
 ## Features
 
-- 🧠 **Natural Language Model Building** - Describe your ML task in plain English
-- 📊 **Real-time Training Insights** - Watch your model train with live metrics
-- 💾 **Model Management** - Store and download your trained models
-- 📱 **Responsive Design** - Works seamlessly on desktop and mobile
-- 🌙 **Dark Mode Support** - Choose between light and dark themes
-- 👛 **Web3 Integration** - Connect your wallet using RainbowKit
+- **Natural Language Model Building** - Describe your ML task in plain English
+- **Real-time Training Insights** - Watch your model train with live metrics
+- **Model Management** - Store and download your trained models
+- **Responsive Design** - Works seamlessly on desktop and mobile
+- **Dark Mode Support** - Choose between light and dark themes
+- **Web3 Integration** - Connect your wallet using RainbowKit
 
 ## Tech Stack
 
